@@ -53,7 +53,6 @@ class MainPlayer extends React.Component {
               /> : null
           }
           <div className={style.timeNameContainer} style={{ color: this.context.color }}>
-            <div className={style.nameContainer} title={name}>{name}</div>
             <div className={style.timeContainer}>
               <Time time={this.state.progressTime} />
               <span>{'/'}</span>

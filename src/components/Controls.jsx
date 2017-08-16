@@ -42,15 +42,7 @@ const Controls = ({
   }
   return (
     <ButtonGroup>
-      <Buttons.SkipPrevBtn onClick={skipToPrevious} />
       <PlayPauseBtn onClick={togglePlayPause} />
-      <Buttons.SkipNextBtn onClick={skipToNext} />
-      <PlayingStateBtn onClick={togglePlayingState} />
-      <VolumeContainer
-        volume={volume}
-        setVolume={setVolume}
-        volumeOrientationDown={volumeOrientationDown}
-      />
     </ButtonGroup>
   );
 };
